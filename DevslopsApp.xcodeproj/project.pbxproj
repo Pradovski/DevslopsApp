@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C355EFD5258239660059A21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355EFD4258239660059A21F /* AppDelegate.swift */; };
 		C355EFD7258239660059A21F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355EFD6258239660059A21F /* SceneDelegate.swift */; };
-		C355EFD9258239660059A21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355EFD8258239660059A21F /* ViewController.swift */; };
+		C355EFD9258239660059A21F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C355EFD8258239660059A21F /* WelcomeViewController.swift */; };
 		C355EFDC258239660059A21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C355EFDA258239660059A21F /* Main.storyboard */; };
 		C355EFDE258239680059A21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C355EFDD258239680059A21F /* Assets.xcassets */; };
 		C355EFE1258239680059A21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C355EFDF258239680059A21F /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		C355EFD1258239650059A21F /* DevslopsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevslopsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C355EFD4258239660059A21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C355EFD6258239660059A21F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C355EFD8258239660059A21F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C355EFD8258239660059A21F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C355EFDB258239660059A21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C355EFDD258239680059A21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C355EFE0258239680059A21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		C355EFD3258239650059A21F /* DevslopsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C355EFED25823ABE0059A21F /* Controllers */,
+				C355EFEB25823AA90059A21F /* Views */,
+				C355EFE925823A980059A21F /* Models */,
 				C355EFD4258239660059A21F /* AppDelegate.swift */,
 				C355EFD6258239660059A21F /* SceneDelegate.swift */,
-				C355EFD8258239660059A21F /* ViewController.swift */,
 				C355EFDA258239660059A21F /* Main.storyboard */,
 				C355EFDD258239680059A21F /* Assets.xcassets */,
 				C355EFDF258239680059A21F /* LaunchScreen.storyboard */,
 				C355EFE2258239680059A21F /* Info.plist */,
 			);
 			path = DevslopsApp;
+			sourceTree = "<group>";
+		};
+		C355EFE925823A980059A21F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C355EFEB25823AA90059A21F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C355EFED25823ABE0059A21F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C355EFD8258239660059A21F /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C355EFD9258239660059A21F /* ViewController.swift in Sources */,
+				C355EFD9258239660059A21F /* WelcomeViewController.swift in Sources */,
 				C355EFD5258239660059A21F /* AppDelegate.swift in Sources */,
 				C355EFD7258239660059A21F /* SceneDelegate.swift in Sources */,
 			);
